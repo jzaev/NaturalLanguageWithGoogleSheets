@@ -2,9 +2,9 @@ import requests
 from datetime import datetime
 import os
 
-APP_ID = os.environ.get("APP_ID")    #"fd82b230"
-APP_KEY = os.environ.get("APP_KEY")    #"f62736f9fefedc85c80e549ae23a05a0"
-BEARER_KEY = os.environ.get("BEARER_KEY")    #"kawefuglkagfju9999"
+APP_ID = os.environ.get("APP_ID")    #""
+APP_KEY = os.environ.get("APP_KEY")    #""
+BEARER_KEY = os.environ.get("BEARER_KEY")    #""
 
 POST_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
